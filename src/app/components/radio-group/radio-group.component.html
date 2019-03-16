@@ -1,0 +1,4 @@
+<div class="my-2" *ngFor="let option of options">
+    <input type="radio" name={{name}} value="option?.value" id="radio-{{option?.value}}" [checked]="selected?.value === option?.value" (change)="onChange($event, option)">
+    <label for="radio-{{option?.value}}" class="ml-1"> {{option?.label}}</label>
+</div>

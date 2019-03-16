@@ -1,0 +1,48 @@
+[
+	{
+        "question": "Which is the largest internal organ in the human body?",
+        "options": [
+            "Liver",
+            "Heart",
+            "Lung",
+            "Kidney"
+        ],
+        "answer": "Liver"
+    },{
+        "question": "5 + 7 = ?",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": "12"
+    },{
+        "question": "Which one is correct team name in NBA?",
+        "options": [
+            "New York Bulls",
+            "Los Angeles Kings",
+            "Golden State Warriors",
+            "Houston Rocket"
+        ],
+        "answer": "Houston Rocket"
+    },{
+        "question": "Apart from Venus, which planet rotates from east to west?",
+        "options": [
+            "Jupiter",
+            "Mars",
+            "Uranus",
+            "Saturn"
+        ],
+        "answer": "Uranus"
+    },{
+        "question": "Which famous philosopher was also the tutor of Alexander the Great?",
+        "options": [
+            "Aristotle",
+            "Socrates",
+            "Rousseau",
+            "Philip II"
+        ],
+        "answer": "Aristotle"
+    }
+]

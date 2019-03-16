@@ -1,0 +1,13 @@
+<section class="header shadow-sm">
+    <div class="container d-flex justify-content-between">
+        <div class="d-flex">
+            <div class="d-flex" [class.done]="answers[questionIndex]" (click)="selectedQuestionChange.emit(questionIndex)" *ngFor="let question of questions;let questionIndex = index">
+                <span class="mx-2">{{ questionIndex + 1 }}</span>
+            </div>
+        </div>
+        <div>
+            <span> Remaining Time: </span>
+            <span *ngIf="timer">{{(timer | async) | timeString}}</span>
+        </div>
+    </div>
+</section>

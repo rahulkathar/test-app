@@ -1,0 +1,6 @@
+<div>
+    <h3>{{question?.question}}</h3>
+    <div py-2>
+        <app-radio-group [selected]="{value: answer}" (selectedChange)="answerChange.emit($event?.value)" [options]="question?.options | radioOptions"></app-radio-group>
+    </div>
+</div>
